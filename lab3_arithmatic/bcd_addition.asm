@@ -11,7 +11,7 @@ Reset_Handler
     LDR     R1, =B
     LDR     R1, [R1]
 
-    MOV     R2, #0 ; DIGIT COUNTER
+    MOV     R2, #0 ; DIGIT POSITION
     MOV     R3, #0 ; CARRY
     MOV     R4, #0 ; RESULT
     MOV     R10, #0 ; COUNTER

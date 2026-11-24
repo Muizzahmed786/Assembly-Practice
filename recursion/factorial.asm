@@ -13,8 +13,7 @@ Reset_Handler
 
     LDR     R1, =RESULT
     STR     R0, [R1]
-FACTORIAL
-    CMP     R0, #1
+FACTORIAL  CMP     R0, #1
     BLS     BASE_CASE
 
     PUSH    {R0, LR}
